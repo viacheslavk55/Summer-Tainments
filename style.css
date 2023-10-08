@@ -1,0 +1,76 @@
+.navbar-brand {
+margin-right: 0;
+}
+.navbar-brand img {
+width: 80px;
+margin-left: 30%;
+}
+@media screen and (min-width: 768px) {
+.navbar-brand img {
+width: 120px;
+}
+.navbar .container-fluid {
+flex-direction: row;
+}
+.navbar .navbar-nav .nav-item {
+padding: 1em 5em;
+}
+.navbar-nav {
+border-bottom: 2px solid #fff;
+}
+}
+  
+.navbar .navbar-nav .nav-link {
+color: #fff;
+font-size: 1.1em;
+}
+.navbar .navbar-nav {
+border-top: 2px solid #fff;
+margin-top: 0.5em;
+}
+  
+.mtitle {
+text-align: center;
+color: white;
+font-family: 'Roboto Mono', monospace;
+}
+.bg {
+background-image: url('images/onfield.jpg');
+height: 100%;
+width: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+body,html{
+height:100%;
+}
+
+#header {
+color: white;
+font-family: 'Roboto Mono', monospace;
+backdrop-filter: blur(2px) saturate(100%)
+}
+#h1 {
+width: 30%;
+position: absolute;
+bottom: 0;
+}
+#maincon {
+background-color: #042b66;
+}
+#maintext {
+font-family: 'Sofia Sans Condensed', sans-serif;
+color: white;
+font-size: 1.7em;
+}
+.bg1 {
+background-image: url('images/usa\ flag.png');
+height: 100%;
+width: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
